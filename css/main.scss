@@ -54,13 +54,13 @@ nav {
     display: grid;
     justify-self: center;
 
-    height: 80vh;
-    width: 200vh;
+    height: 70vh;
+    width: 150vh;
 
     background-color: #303030;
 
     border-radius: 50px;
-    margin-top: 1rem;
+    margin-top: 5rem;
 
     box-shadow: -7px 10px 4px 1px #D3D3D3;
 
@@ -74,6 +74,14 @@ nav {
       font-weight: 200;
 
       color: #FFF;
+    }
+    p {
+      font-family: 'Bitter', serif;
+      width: 30rem;
+      justify-self: center;
+      align-self: center;
+      margin:0;
+      padding:0;
     }
   }
 }
