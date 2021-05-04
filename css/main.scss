@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Work+Sans:wght@500&display=swap');
+
+body,
+html {
+  background-color: #121212;
+  color: #FFF;
+}
+
+// Navigation
+
+nav {
+  background-color: #121212;
+  margin: 0;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 0;
+    border-bottom: 2px solid #FFF;
+
+    .mak {
+      justify-self: start;
+    }
+
+    .rest {
+      justify-self: end;
+    }
+
+    li {
+      justify-self: center;
+      list-style: none;
+      padding: 1rem;
+
+      a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+
+        text-decoration: none;
+        color: #FFF;
+      }
+    }
+  }
+}
+
+// Hero Section
+
+.hero {
+  display: grid;
+  color: #FFF;
+  height: 100vh;
+
+  .pop-out {
+    display: grid;
+    justify-self: center;
+
+    height: 80vh;
+    width: 200vh;
+
+    background-color: #303030;
+
+    border-radius: 50px;
+    margin-top: 1rem;
+
+    box-shadow: -7px 10px 4px 1px #D3D3D3;
+
+    h1 {
+      // position: absolute;
+      justify-self: center;
+      align-self: center;
+
+      font-family: 'Bitter', serif;
+      font-size: 40px;
+      font-weight: 200;
+
+      color: #FFF;
+    }
+  }
+}
+
+// About
+.about {
+  background-color: #FFF;
+  color: #000;
+  display: grid;
+  grid-template-areas:
+    ". . . . ."
+    "img img . h2 h2"
+    "img img . p p";
+
+  h2 {
+    grid-area: 'h2';
+    font-family: 'Work Sans', sans-serif;
+  }
+}

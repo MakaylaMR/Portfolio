@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Work+Sans:wght@500&display=swap");
+body,
+html {
+  background-color: #121212;
+  color: #FFF;
+}
+
+nav {
+  background-color: #121212;
+  margin: 0;
+}
+
+nav ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0;
+  border-bottom: 2px solid #FFF;
+}
+
+nav ul .mak {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+nav ul .rest {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+nav ul li {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  list-style: none;
+  padding: 1rem;
+}
+
+nav ul li a {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  color: #FFF;
+  height: 100vh;
+}
+
+.hero .pop-out {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  height: 80vh;
+  width: 200vh;
+  background-color: #303030;
+  border-radius: 50px;
+  margin-top: 1rem;
+  -webkit-box-shadow: -7px 10px 4px 1px #D3D3D3;
+          box-shadow: -7px 10px 4px 1px #D3D3D3;
+}
+
+.hero .pop-out h1 {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: 'Bitter', serif;
+  font-size: 40px;
+  font-weight: 200;
+  color: #FFF;
+}
+
+.about {
+  background-color: #FFF;
+  color: #000;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: ". . . . ." "img img . h2 h2" "img img . p p";
+}
+
+.about h2 {
+  grid-area: 'h2';
+  font-family: 'Work Sans', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
