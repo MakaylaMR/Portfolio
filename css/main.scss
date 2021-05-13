@@ -61,20 +61,26 @@ nav {
 
       color: #FFF;
     }
-    p {
+    a {
       justify-self: center;
       align-self: center;
 
       font-size: 60px;
 
       margin: 0;
+
+      text-decoration: none;
+      color:#FFF;
+      &:hover{
+        
+      }
     }
   }
 }
 
 // About
 .about {
-  
+  height: 100vh;
   display: grid;
   grid-template-areas:
     ". . . . ."
@@ -105,7 +111,26 @@ nav {
     border-radius: 3rem;
   }
 }
-// projects
+div {
+  display:grid;
+  a {
+    justify-self: center;
+    align-self: start;
+
+    font-size: 60px;
+
+    margin: 0;
+
+    text-decoration: none;
+    color:#FFF;
+    &:hover{
+      
+    }
+  }
+}
+
+
+// Projects
 .proj {
   text-align: center;
   font-family: 'Work Sans', sans-serif;
@@ -113,6 +138,7 @@ nav {
 .project{
   display:grid;
   grid-gap:0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
   a {
     img {
       width:46rem;
@@ -120,4 +146,10 @@ nav {
       max-width:100%;
     }
   }
+}
+
+// Contact
+.cont {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
 }
