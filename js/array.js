@@ -53,10 +53,11 @@ const projects = [
 
 const project = document.querySelector('.project');
 projects.forEach(function(proj){
+//anchor element
     const link = document.createElement('a');
     link.href = proj.creditLink;
     project.appendChild(link);
-
+//img element (inside link)
     const img = document.createElement('img');
     img.src = proj.pathURL;
     img.alt = proj.alt;

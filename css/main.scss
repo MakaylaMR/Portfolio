@@ -105,11 +105,19 @@ nav {
     border-radius: 3rem;
   }
 }
-
+// projects
+.proj {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
 .project{
   display:grid;
-  h2 {
-    justify-self:center;
-    font-family: 'Work Sans', sans-serif;
+  grid-gap:0.5rem;
+  a {
+    img {
+      width:46rem;
+      height:auto;
+      max-width:100%;
+    }
   }
 }

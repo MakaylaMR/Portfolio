@@ -120,14 +120,20 @@ nav ul li a {
   border-radius: 3rem;
 }
 
+.proj {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
 .project {
   display: -ms-grid;
   display: grid;
+  grid-gap: 0.5rem;
 }
 
-.project h2 {
-  -ms-grid-column-align: center;
-      justify-self: center;
-  font-family: 'Work Sans', sans-serif;
+.project a img {
+  width: 46rem;
+  height: auto;
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
