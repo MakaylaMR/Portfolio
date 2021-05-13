@@ -51,6 +51,11 @@ nav ul li a {
   height: 100vh;
 }
 
+.hero .pop-out {
+  display: -ms-grid;
+  display: grid;
+}
+
 .hero .pop-out h1 {
   -ms-grid-column-align: center;
       justify-self: center;
@@ -58,7 +63,7 @@ nav ul li a {
       -ms-grid-row-align: center;
       align-self: center;
   font-family: 'Bitter', serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 200;
   color: #FFF;
 }
@@ -72,7 +77,39 @@ nav ul li a {
 }
 
 .about h2 {
-  grid-area: 'h2';
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: h2;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   font-family: 'Work Sans', sans-serif;
+}
+
+.about p {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: p;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-family: 'Bitter', serif;
+}
+
+.about img {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: img;
+  width: 40rem;
+}
+
+.project img {
+  width: 5rem;
+  height: auto;
 }
 /*# sourceMappingURL=main.css.map */
