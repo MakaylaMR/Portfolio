@@ -107,8 +107,9 @@ nav {
 }
 
 .project{
-  img {
-    width:5rem;
-    height:auto;
+  display:grid;
+  h2 {
+    justify-self:center;
+    font-family: 'Work Sans', sans-serif;
   }
 }
