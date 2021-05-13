@@ -79,8 +79,6 @@ nav ul li a {
 }
 
 .about {
-  background-color: #FFF;
-  color: #000;
   display: -ms-grid;
   display: grid;
       grid-template-areas: ". . . . ." "img img . h2 h2" "img img . p p";
@@ -115,7 +113,11 @@ nav ul li a {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: img;
+  height: auto;
+  max-width: 100%;
   width: 40rem;
+  padding: 1rem;
+  border-radius: 3rem;
 }
 
 .project img {
