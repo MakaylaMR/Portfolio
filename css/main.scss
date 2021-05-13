@@ -53,13 +53,21 @@ nav {
     display:grid;
     h1 {
       justify-self: center;
-      align-self: center;
+      align-self: end;
 
       font-family: 'Bitter', serif;
       font-size: 50px;
       font-weight: 200;
 
       color: #FFF;
+    }
+    p {
+      justify-self: center;
+      align-self: center;
+
+      font-size: 60px;
+
+      margin: 0;
     }
   }
 }

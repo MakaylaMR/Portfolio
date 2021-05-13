@@ -59,13 +59,23 @@ nav ul li a {
 .hero .pop-out h1 {
   -ms-grid-column-align: center;
       justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
   font-family: 'Bitter', serif;
   font-size: 50px;
   font-weight: 200;
   color: #FFF;
+}
+
+.hero .pop-out p {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 60px;
+  margin: 0;
 }
 
 .about {
